@@ -1,4 +1,4 @@
-##上传本地代码至GitHub
+## 上传本地代码至GitHub
 1. github上创建Repository。
 2. 新建仓库目录Test
 ```
