@@ -2,7 +2,7 @@
 1. github上创建Repository。
 2. 新建仓库目录Test
 ```
-git int
+git init
 ```
 3. 将项目中所有文件添加到仓库
 ```
