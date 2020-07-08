@@ -1,12 +1,14 @@
 # git
 ## Gitlab Community Edition 镜像使用帮助 
 地址：https://mirror.tuna.tsinghua.edu.cn/help/gitlab-ce/ 
+
 注意: gitlab-ce 镜像仅支持 x86-64 架构 
 
 ### Debian/Ubuntu 用户 
 首先信任 GitLab 的 GPG 公钥: 
 
 curl https://packages.gitlab.com/gpg.key 2> /dev/null | sudo apt-key add - &>/dev/null 
+
 再选择你的 Debian/Ubuntu 版本，文本框中内容写进 /etc/apt/sources.list.d/gitlab-ce.list 
 
 你的Debian/Ubuntu版本:  
@@ -57,6 +59,7 @@ gpgcheck=0
 enabled=1 
 
 再执行 
+
 sudo yum makecache 
 
 sudo yum install gitlab-ce 
