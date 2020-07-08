@@ -12,14 +12,19 @@ curl https://packages.gitlab.com/gpg.key 2> /dev/null | sudo apt-key add - &>/de
 你的Debian/Ubuntu版本: 
 debian 8:
 deb http://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/debian jessie main 
+
 debian 9:
 deb http://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/debian stretch main
+
 debian 10:
 deb http://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/debian buster main
+
 debian 14:
 deb https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/ubuntu trusty main
+
 debian 16:
 deb https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/ubuntu xenial main
+
 debian 18:
 deb https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/ubuntu bionic main
 安装 gitlab-ce:
